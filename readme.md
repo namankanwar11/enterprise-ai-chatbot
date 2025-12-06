@@ -56,3 +56,67 @@ A robust, full-stack **Enterprise AI Chatbot** capable of **Sentiment Analysis**
 ├── translation_engine.py    # Translation & Text-to-Speech logic
 ├── requirements.txt         # Python dependencies
 └── packages.txt             # System dependencies (for deployment)
+
+🚀 Installation & Setup
+1. Clone the Repository
+Bash
+
+git clone 
+cd enterprise-ai-chatbot
+2. Create Virtual Environment (Recommended)
+
+Bash
+
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# Mac/Linux
+python3 -m venv venv
+source venv/bin/activate
+3. Install Dependencies
+Bash
+
+pip install -r requirements.txt
+4. Run the Application
+Bash
+
+python -m streamlit run app.py
+The app will open in your browser at http://localhost:8501.
+
+📖 How to Use
+Chat Interface:
+
+Type normally or use the Microphone button to speak.
+
+Change language in the Sidebar to test translation.
+
+Upload a PDF in the RAG Document Loader to ask questions about a specific file.
+
+Admin Dashboard:
+
+Switch "Mode" in the sidebar to Admin Dashboard.
+
+View real-time charts, active sessions, and word clouds.
+
+Export Data:
+
+Click "End Session & Analyze" to generate a report.
+
+Download the PDF Report containing the full transcript and analysis.
+
+☁️ Deployment (Streamlit Cloud)
+This app is ready for Streamlit Community Cloud.
+
+Push code to GitHub.
+
+Go to Streamlit Cloud -> New App.
+
+Select your repository and app.py as the main file.
+
+Important: If Voice features fail on the cloud, ensure packages.txt exists in your repo with ffmpeg inside it.
+
+🛡️ License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Developed by Naman Kanwar 🚀
