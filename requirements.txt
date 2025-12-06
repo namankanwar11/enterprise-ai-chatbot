@@ -1,0 +1,16 @@
+streamlit
+pandas
+numpy
+torch
+transformers
+fpdf
+PyPDF2
+sentence-transformers
+faiss-cpu
+SpeechRecognition
+streamlit-mic-recorder
+plotly
+deep-translator
+gTTS
+wordcloud
+matplotlib

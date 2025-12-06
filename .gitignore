@@ -1,0 +1,15 @@
+# Ignore Database (Keep your chat history local)
+*.db
+chatbot_analysis.db
+
+# Ignore Python Cache
+__pycache__/
+*.pyc
+
+# Ignore System Files
+.DS_Store
+
+# Ignore Virtual Environments (if you have one)
+venv/
+env/
+.env
